@@ -54,7 +54,11 @@ span.line{
   color: red;
 }
 .cursor{
-    cursor: url(https://i.imgur.com/RUE567I.gif), auto;
+    cursor: url(powerglove.gif), auto;
+}
+
+.cursor2 {
+  cursor: url(cursor/Hearthstone_Hand.cur), auto;
 }
 
 /* @group Blink */
