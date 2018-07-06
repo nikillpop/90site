@@ -3,9 +3,14 @@ html, body{
 	font-family: "Comic Sans MS", sans-serif;
 	line-height:1.4;
 	margin:0 auto;
-	max-width:860px;
+	width: 100%;
 	height: 100%;
 }
+
+main{
+  min-height: 80vh;
+}
+
 .center{
 	text-align: center;
 }
@@ -14,17 +19,27 @@ html, body{
 }
 .max { 
     display: block;
-    width: 860px;
+    width: 100%;
     word-wrap: break-word;
 }
 .bg1{
-	background-image: url("https://i.imgur.com/YUPql5N.gif");
+	background-image: url("bg.gif");
 }
 .bg2{
-	background-image: url("https://i.imgur.com/SHZe50s.gif");
+	background-image: url("giphy.gif");
 }
 a{
 	color: #000000;
+}
+#wm-ipp #wm-ipp-inside {
+  margin: 0 6px;
+  border:5px solid #000;
+  border-top:none;
+  background-color:rgba(255,255,255,0.9);
+  -moz-box-shadow:1px 1px 4px #333;
+  -webkit-box-shadow:1px 1px 4px #333;
+  box-shadow:1px 1px 4px #333;
+  border-radius:0 0 8px 8px;
 }
 .container {
     width: 1000px;
@@ -82,7 +97,3 @@ span.line{
 }
 /* @end */
 
-/*for footer*/
-#main{
-	min-height: 90vh;
-}
