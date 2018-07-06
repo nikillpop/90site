@@ -18,10 +18,10 @@ html, body{
     word-wrap: break-word;
 }
 .bg1{
-	background-image: url("bg.gif");
+	background-image: url("https://i.imgur.com/YUPql5N.gif");
 }
 .bg2{
-	background-image: url("spacebg.gif");
+	background-image: url("https://i.imgur.com/SHZe50s.gif");
 }
 a{
 	color: #000000;
@@ -47,6 +47,9 @@ h1, h2, h3, p, a {
 }
 span.line{
   color: red;
+}
+.cursor{
+    cursor: url(https://i.imgur.com/RUE567I.gif), auto;
 }
 
 /* @group Blink */
@@ -88,3 +91,8 @@ span.line{
 	100% { opacity: 0; }
 }
 /* @end */
+
+/*for footer*/
+#main{
+	min-height: 90vh;
+}
